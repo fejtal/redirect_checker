@@ -35,4 +35,4 @@ def create_dataframe():
 
 parser()
 create_dataframe()
-redirected_urls.to_csv(r'c:/users/cheil/documents/vsc/klepiem/test2.csv', index = False) #saves result in csv file
+redirected_urls.to_csv(r'PATH_TO_CSV', index = False) #saves result in csv file
